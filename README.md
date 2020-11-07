@@ -16,9 +16,13 @@ where ground truth is perceived gender score(range from 0 to 1)
 where ground truth is gender label(1 or 2)
 
 
-![Image of Yaktocat](flowchart.jpg)
+![Image1](flowchart.jpg)
 
 For two dataset, we choose different filters, classifiers and feature selection algorithms, to maximize the
 classification accuracy.
 Every time using different methods, we randomly split dataset into train data(80%) and test
 data(20%), and repeatedly run 50 times to get average rate.
+
+![Image2](goodFeatures.jpg)
+
+After feature selection, we can find up to 1000 most discriminative features(depends on iteration times), then operate on these features(like cluster), which could lead to a better result.
