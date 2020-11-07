@@ -4,11 +4,11 @@ Do gender classification on dancer dataset, which consist of motion capture data
 There are two forms of features, Angle values of 17 joint and symmetry features calculated
 from angle.
 
-Angle values:
+Angle values:https://drive.google.com/file/d/1gMnWaAHm840SYCjn27rN4f_BKsJ1KH8G/view?usp=sharing
 17(joint) x 3,000(frames) x 3(d.v.a) x 172(subjects)
 where ground truth is perceived gender score(range from 0 to 1)
 
-Symmetry features:
+Symmetry features:https://drive.google.com/file/d/1Hs9gVyyJikLS_cHKtT1pgfgCt1WC354S/view?usp=sharing
 21 H (x,y,z) and 30 V, 30 T, 21 R,21 G(with 50 different time window size)
 where ground truth is gender label(1 or 2)
 
