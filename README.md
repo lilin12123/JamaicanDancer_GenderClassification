@@ -13,7 +13,7 @@ Symmetry features:
 where ground truth is gender label(1 or 2)
 
 
-![Image of Yaktocat](https://github.com/lilin12123/JamaicanDancer_GenderClassification/flowchart.jpg)
+![Image of Yaktocat](flowchart.jpg)
 
 For two dataset, we choose different filters, classifiers and feature selection algorithms, to maximize the
 classification accuracy.
