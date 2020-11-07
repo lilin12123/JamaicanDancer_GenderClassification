@@ -12,6 +12,7 @@ Symmetry features:
 21 H (x,y,z) and 30 V, 30 T, 21 R,21 G(with 50 different time window size)
 where ground truth is gender label(1 or 2)
 
+![Test Image 1](flowchart.png)
 For two dataset, we choose different filters, classifiers and feature selection algorithms, to maximize the
 classification accuracy.
 Every time using different methods, we randomly split dataset into train data(80%) and test
